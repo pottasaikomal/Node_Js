@@ -12,7 +12,7 @@ const QUESTIONS = [{
         output: "5"
     }]
 }];
-
+//added a comment.
 const submissions = []
 app.post('/signup',(req,res) => {
     const {email,password} = req.body;
